@@ -1,0 +1,13 @@
+img {
+  float: right;
+}
+
+p {
+  background-color: lightgray;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
