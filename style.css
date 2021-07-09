@@ -1,9 +1,18 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 img {
+  display: block;
   float: right;
+  margin: 10px 20px;
 }
 
 p {
-  background-color: lightgray;
+  background-color: rgb(231, 231, 231); 
+  text-align: justify;
+  padding: 0 15px;
+  line-height: 125%;
 }
 
 .clearfix::after {
